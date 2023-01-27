@@ -40,5 +40,6 @@ fi
 
 mkdir bin
 mv macchina bin/
+chmod u+x bin/macchina
 #tar -xzf $tarname
 #rm $tarname
