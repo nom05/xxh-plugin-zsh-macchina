@@ -38,5 +38,7 @@ else
   echo Install wget or curl
 fi
 
+mkdir bin
+mv macchina bin/
 #tar -xzf $tarname
 #rm $tarname
