@@ -1,4 +1,4 @@
-## Create your zsh xxh plugin
+## Macchina zsh xxh plugin
 1. Fork this repo
 2. Edit the plugin files:
     * `pluginrc.zsh` -  this script will be executed on the host when you connect to the host. Put here your functions, environment variables, aliases and whatever you need.
@@ -8,7 +8,7 @@
 4. Push your commits and rename your repo to `xxh-plugin-zsh-yourtitle`
 5. Install the plugin to your xxh home:
 ```
-xxh +I xxh-plugin-zsh-yourtitle+git+https://github.com/yourname/xxh-plugin-zsh-yourtitle
+xxh +I xxh-plugin-zsh-macchina+git+https://github.com/nom05/xxh-plugin-zsh-macchina
 ```
 6. Try connect in update mode: `xxh [user@]host[:port] +s zsh +if`
 
